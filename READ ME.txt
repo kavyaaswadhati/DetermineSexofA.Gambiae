@@ -1,6 +1,6 @@
 READ ME
 
-In order to sex an Anopheles Gambia sample (Illumina, Hi-seq Paired end reads sample) using this pipeline first download the reference genome from NCBI at the following address:
+In order to determine the sex of an Anopheles Gambia sample (Illumina, Hi-seq Paired end reads sample) using this pipeline first download the reference genome from NCBI at the following address:
 
 <https://www.ncbi.nlm.nih.gov/genome/?term=GCA_000005575.1>
 
