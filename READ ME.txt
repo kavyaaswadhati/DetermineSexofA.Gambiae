@@ -2,15 +2,15 @@ READ ME
 
 In order to sex an Anopheles Gambia sample (Illumina, Hi-seq Paired end reads sample) using this pipeline first download the reference genome from NCBI at the following address:
 
-https://www.ncbi.nlm.nih.gov/genome/?term=GCA_000005575.1
+<https://www.ncbi.nlm.nih.gov/genome/?term=GCA_000005575.1>
 
 Then generate the index for this genome by using the following command:
 
-bwa index GCA_000005575.1_AgamP3_genomic.fna
+<bwa index GCA_000005575.1_AgamP3_genomic.fna>
 
 Make sure your reference genome, index files, sex_a_gambiae_pipeline.sh and sex_a_gambiae.py are in the same directory. Next, replace all instances of {ACCESSION} in sex_a_gambiae_pipeline.sh with the accession number of your sample of interest, and run:
 
-./sex_a_gambiae_pipeline.sh
+<./sex_a_gambiae_pipeline.sh>
 
 This will result in a series of a fasta file and alignment files as well as a file ending in .chroms. The content of the .chroms file will be the depth of coverage on the X, Y, 2, and 3 chromosomes. Depending on the depth of coverage on the X and Y chromosome, you can infer the sex of your sample!
 
