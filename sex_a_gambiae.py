@@ -27,8 +27,8 @@ three_pos_num = 0
 
 # CHROMOSOME  SCAFFOLD IDS
 ys = [] # will be populate via an iteration through the reference genome
-chrom2 = ['CM000357.1','CM000356.1'] # left and right scaffolds for chromosome 2
-chrom3 = ['CM000358.1', 'CM000359.1'] # left and right scaffolds for chromosome 3
+chrom2 = ['CM000357.1','CM000356.1','NT_078266.2','NT_078265.2'] # left and right scaffolds for chromosome 2
+chrom3 = ['CM000358.1', 'CM000359.1','NT_078268.4','NT_078267.5'] # left and right scaffolds for chromosome 3
 
 
 # POPULATE ys [] WITH Y SCAFFOLDS
